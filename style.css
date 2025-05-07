@@ -1,0 +1,45 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.output {
+    
+    width: 450px;
+    height: 150px;
+    background-color: rgb(55, 55, 58);
+    margin: 20px;
+
+}
+.buttonContainer {
+    display: flex;
+    align-items: flex-end;
+    width: 400px;
+    height: 500px;
+    background-color: gray;
+    margin-left: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: center;
+}
+
+.container {
+    flex-wrap: wrap;
+    background-color: rgb(29, 29, 31);
+    height: 800px;
+    width: 500px;
+    border-radius: 10px;
+
+}
+
+button {
+    padding: 0;
+    height: 90px;
+    width: 98px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
