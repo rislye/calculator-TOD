@@ -12,7 +12,6 @@ let secondValue = '';
 let choiceOperator = '';
 let result = '';
 
-
 delete1.addEventListener('click', () => {
     display.value = display.value.slice(0, -1);
     currentValue = display.value;
@@ -25,10 +24,8 @@ number.forEach(button => {
              return;
         }
         }
-        
             display.value += button.innerText;
             currentValue = display.value
-            console.log(currentValue)
     })
 })
 
@@ -74,6 +71,8 @@ function operate() {
             break;
         default:
             alert('Unknown operator');
+            num1 = 0;
+            num2 = 0;
             return;
     }
 
@@ -85,7 +84,7 @@ function operate() {
 
 equal.addEventListener('click', () => {
     operate()
-    display.value = '';
+    choiceOperator = '';
 })
 
 AC.addEventListener('click', () => {
