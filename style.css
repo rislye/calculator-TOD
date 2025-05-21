@@ -4,12 +4,41 @@ body {
     justify-content: center;
 }
 
-.output {
+
+.result {
     
-    width: 450px;
+    width: 100%;
     height: 150px;
-    background-color: rgb(55, 55, 58);
+    background-color: rgb(135, 135, 143);
     margin: 20px;
+    padding: 0;
+    margin: 5px 5px 0 0;
+    border: 0;
+    font-size: 50px;
+    text-align: end;
+}
+
+.inputRow {
+    display: flex;
+    
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+.output {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(135, 135, 143);
+    margin: 20px;
+    padding: 0;
+    margin: 5px 0 0 5px;
+    border: 0;
+    font-size: 50px;
+    text-align: start;
 
 }
 .buttonContainer {
@@ -42,4 +71,12 @@ button {
     font-weight: bolder;
     font-size: larger;
     
+}
+
+button:hover {
+    opacity: 70%;
+}
+
+button:active {
+    opacity: 30%;
 }
